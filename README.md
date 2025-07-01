@@ -1,7 +1,7 @@
 # RUL-Prediction-on-NASA-CMAPSS-Dataset
 # Remaining Useful Life Prediction on NASA Turbofan Engine Dataset
 
-This project builds a machine learning pipeline to estimate the **Remaining Useful Life (RUL)** of aircraft engines using the NASA CMAPSS (FD001) dataset. It aims to enable predictive maintenance by forecasting how many operational cycles an engine has left before failure.
+This project builds a machine learning model to estimate the **Remaining Useful Life (RUL)** of aircraft engines using the NASA CMAPSS (FD001) dataset. It aims to enable predictive maintenance by forecasting how many operational cycles an engine has left before failure.
 
 ---
 
@@ -15,10 +15,10 @@ Given multivariate sensor readings from turbofan engines over time, the goal is 
 
 - Unit-wise splitting to prevent data leakage  
 - Feature scaling with `StandardScaler`  
-- Model training with **Random Forest** and **Neural Network**  
+- Model training with **Random Forest** and **LSTM**  
 - Hyperparameter tuning using `GridSearchCV`  
 - Evaluation on hold-out validation set using MAE, MSE, R²  
-- Residual and learning curve analysis (recommended for further insight)
+
 
 ---
 
